@@ -10,7 +10,7 @@ fn main() {
         .map(|line| line.ok().unwrap());
         
     let mut quantity: usize = lines
-        .next().unwrap().trim()
+        .next().unwrap()
         .parse().unwrap();
 
     if (quantity as f32) / 2.0 == (quantity / 2) as f32 { // Even
